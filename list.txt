@@ -1,0 +1,56 @@
+{
+    "forceRefresh": false,
+    "groupId": 1,
+    "localFilters": {
+        "filterTree": {
+            "OR": [
+                {
+                    "status": {
+                        "EQ": 3
+                    }
+                },
+                {
+                    "status": {
+                        "EQ": 2
+                    }
+                },
+                {
+                    "status": {
+                        "EQ": 1
+                    }
+                },
+                {
+                    "status": {
+                        "EQ": 0
+                    }
+                }
+            ]
+        },
+        "subgroups": true
+    },
+    "pageSize": 100,
+    "requiredFields": [
+        "id",
+        "status",
+        "uuid",
+        "osFamily",
+        "name",
+        "tags",
+        "lastConnected",
+        "lastEvents",
+        "alertsCount",
+        "alertsMaxSeverity",
+        "groupName",
+        "agentVersion",
+        "eventsReceived",
+        "eventsStored",
+        "isolated"
+    ],
+    "sessionId": 628762,
+    "sortOrders": [
+        {
+            "ascend": false,
+            "column": "lastConnected"
+        }
+    ]
+}
